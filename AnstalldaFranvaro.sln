@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnstalldaFranvaro", "AnstalldaFranvaro.csproj", "{4A0D3F84-6D29-4C59-AEA8-34763292C672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsenceOrganizer", "..\AbsenceOrganizer\AbsenceOrganizer.csproj", "{110342A3-1698-422E-A41F-049EE2B4009B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A0D3F84-6D29-4C59-AEA8-34763292C672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0D3F84-6D29-4C59-AEA8-34763292C672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0D3F84-6D29-4C59-AEA8-34763292C672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0D3F84-6D29-4C59-AEA8-34763292C672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110342A3-1698-422E-A41F-049EE2B4009B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110342A3-1698-422E-A41F-049EE2B4009B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110342A3-1698-422E-A41F-049EE2B4009B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110342A3-1698-422E-A41F-049EE2B4009B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20D77CAF-5B75-413E-AAEE-49EF35480C1F}
+	EndGlobalSection
+EndGlobal
