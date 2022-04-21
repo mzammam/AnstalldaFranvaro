@@ -11,6 +11,8 @@ namespace AnstalldaFranvaro
         public double Percentage { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+
+
         public bool Equals(Absence other)
         {
             //return Employee.Equals(other.Employee) && Date.Equals(other.Date);
