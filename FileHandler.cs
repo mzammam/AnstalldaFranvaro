@@ -23,63 +23,6 @@ namespace AnstalldaFranvaro
         public List<Employee> ReadXmlFile(string filePath)
         {
 
-            XmlDocument xmlDoc = new XmlDocument();
-
-    //        //returns url of main directory which contains "/bin/Debug"
-    //        var url = System.IO.Path.GetDirectoryName(
-    //System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
-
-    //        //correction in path to point it in Root directory
-    //        var mainpath = url.Replace("\\bin\\Debug", "") + "\\books.xml";
-            //load xml file
-            xmlDoc.Load(filePath);
-
-            //save all nodes in XMLnodelist
-            XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("/Data/FileDate");
-
-            //loop through each node and save it value in NodeStr
-            var NodeStr = "";
-
-            foreach (XmlNode node in nodeList)
-            {
-                NodeStr = NodeStr + "\nAuthor " + node.SelectSingleNode("author").InnerText;
-                NodeStr = NodeStr + "\nTitle " + node.SelectSingleNode("title").InnerText;
-                NodeStr = NodeStr + "\nGenre " + node.SelectSingleNode("genre").InnerText;
-                NodeStr = NodeStr + "\nPrice " + node.SelectSingleNode("price").InnerText;
-                NodeStr = NodeStr + "\nDescription -" + node.SelectSingleNode("description").InnerText;
-
-
-            }
-            //print all Authors details
-            Console.WriteLine(NodeStr);
-
-
-            //if (Directory.Exists(filePath))
-            //{
-            //    DirectoryInfo dirSource = new DirectoryInfo(filePath);
-            //    var allXMLFiles = dirSource.GetFiles("*.xml", SearchOption.AllDirectories).ToList();
-
-            //    List<Employee> listAllEntries = new List<Employee>();
-
-            //    foreach (var nextFile in allXMLFiles)
-            //    {
-            //        try
-            //        {
-            //            XmlSerializer serializer = new XmlSerializer(typeof(Employee));
-            //            using (TextReader reader = new StringReader(System.IO.File.ReadAllText(nextFile.FullName)))
-            //            {
-            //                Employee result = (Employee)serializer.Deserialize(reader);
-            //                listAllEntries.Add(result);
-            //            }
-            //        }
-            //        catch (Exception ex)
-            //        {
-
-            //        }
-            //    }
-
-            //    Console.WriteLine(listAllEntries.Count);
-            //}
 
             return new List<Employee>();
         }
